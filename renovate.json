@@ -14,6 +14,15 @@
         "https://plugins.gradle.org/m2/",
         "https://jitpack.io"
       ]
+    },
+    {
+      "groupName": "androidx.test",
+      "matchPackageNames": [
+        "androidx.test:*"
+      ],
+      "prBodyNotes": [
+        "### Release Notes ({{{ replace '.*:' '' packageName }}})\n\nhttps://developer.android.com/jetpack/androidx/releases/test#{{{ replace '-ktx' '' (replace '.*:' '' packageName) }}}-{{{newVersion}}}"
+      ]
     }
   ]
 }
