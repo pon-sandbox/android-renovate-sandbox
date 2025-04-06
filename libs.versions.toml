@@ -1,0 +1,5 @@
+[versions]
+androidxTestCore = "1.6.0"
+
+[libraries]
+androidx-test-core = {group = "androidx.test", name = "core", version.ref = "androidxTestCore"}
