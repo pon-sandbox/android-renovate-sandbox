@@ -1,7 +1,7 @@
 [versions]
-androidxTestCore = "1.6.0"
-androidxTestRules = "1.6.0"
-androidxTestRunner = "1.6.0"
+androidxTestCore = "1.6.1"
+androidxTestRules = "1.6.1"
+androidxTestRunner = "1.6.2"
 guava = "33.4.5-android"
 
 [libraries]
