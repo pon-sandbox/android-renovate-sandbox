@@ -36,7 +36,7 @@
       "matchPackageNames": [
         "com.google.guava:guava"
       ],
-      "changelogUrl": "https://github.com/google/guava/releases/tag/v33.4.6",
+      "allowedVersions": "/.*-android$/",
       "prBodyNotes": [
         "### Release Notes\n\nhttps://developer.android.com/build/releases/gradle-plugin#android-gradle-plugin-{{{newVersion}}}"
       ]
