@@ -42,7 +42,16 @@
       ]
     },
     {
-      "groupName": "androidx.test",
+      "groupName": "androidx.compose.material",
+      "matchPackageNames": [
+        "androidx.compose.material:*"
+      ],
+      "prBodyNotes": [
+        "### Release Notes ({{{ replace '.*:' '' packageName }}})\n\nhttps://developer.android.com/jetpack/androidx/releases/compose-material#{{{newVersion}}}"
+      ]
+    },
+    {
+      "groupName": "{{{packageScope}}}",
       "matchPackageNames": [
         "androidx.test:*"
       ],
