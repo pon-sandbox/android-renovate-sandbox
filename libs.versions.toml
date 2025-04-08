@@ -7,6 +7,7 @@ androidxTestRunner = "1.6.0"
 androidxComposeBom = "2025.03.00"
 guava = "33.4.5-android"
 clarity = "3.1.2"
+photoView = "2.2.0"
 
 [libraries]
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }
@@ -17,3 +18,4 @@ androidx-test-runner = {group = "androidx.test", name = "runner", version.ref = 
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "androidxComposeBom" }
 guava = { module = "com.google.guava:guava", version.ref = "guava" }
 clarity = { group = "com.microsoft.clarity", name = "clarity", version.ref = "clarity" }
+photoView = { group = "com.github.chrisbanes", name = "PhotoView", version.ref = "photoView" }
