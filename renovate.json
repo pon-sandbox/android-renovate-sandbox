@@ -27,7 +27,6 @@
       "matchPackageNames": [
         "com.google.guava:guava"
       ],
-      "allowedVersions": "/.*-android$/",
       "versionCompatibility": "^(?<version>[^-]+)(?<compatibility>-.*)?$",
       "prBodyNotes": [
         "### Release Notes\n\nhttps://github.com/google/guava/releases/tag/v{{{ replace '-android' '' newVersion }}}"
