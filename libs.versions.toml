@@ -7,7 +7,7 @@ androidxTestRunner = "1.6.0"
 androidxComposeBom = "2025.03.00"
 guava = "33.4.5-android"
 clarity = "3.1.2"
-photoView = "2.2.0"
+photoView = "2.3.0"
 
 [libraries]
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }
