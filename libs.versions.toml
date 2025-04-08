@@ -18,4 +18,4 @@ androidx-test-runner = {group = "androidx.test", name = "runner", version.ref = 
 androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "androidxComposeBom" }
 guava = { module = "com.google.guava:guava", version.ref = "guava" }
 clarity = { group = "com.microsoft.clarity", name = "clarity", version.ref = "clarity" }
-photoView = { group = "com.github.chrisbanes", name = "PhotoView", version.ref = "photoView" }
+photoView = { group = "com.github.chrisbanes", name = "photoView", version.ref = "photoView" }
