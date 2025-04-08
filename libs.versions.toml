@@ -2,9 +2,11 @@
 androidxTestCore = "1.6.0"
 androidxTestRules = "1.6.0"
 androidxTestRunner = "1.6.0"
+guava = "33.4.5-android"
 
 [libraries]
 androidx-test-core = {group = "androidx.test", name = "core", version.ref = "androidxTestCore"}
 androidx-text-core-ktx = {group = "androidx.test", name = "core-ktx", version.ref = "androidxTestCore"}
 androidx-test-rules = {group = "androidx.test", name = "rules", version.ref = "androidxTestRules"}
 androidx-test-runner = {group = "androidx.test", name = "runner", version.ref = "androidxTestRunner"}
+guava = { module = "com.google.guava:guava", version.ref = "guava" }

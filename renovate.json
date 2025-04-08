@@ -16,6 +16,32 @@
       ]
     },
     {
+      "groupName": "androidx.activity",
+      "matchPackageNames": [
+        "androidx.activity:*"
+      ],
+      "prBodyNotes": [
+        "### Release Notes ({{{ replace '.*:' '' packageName }}})\n\nhttps://developer.android.com/jetpack/androidx/releases/activity#{{{ replace '-ktx' '' (replace '.*:' '' packageName) }}}-{{{newVersion}}}"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "com.android.tools.build:gradle"
+      ],
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://developer.android.com/build/releases/gradle-plugin#android-gradle-plugin-{{{newVersion}}}"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "com.google.guava:guava"
+      ],
+      "changelogUrl": "https://github.com/google/guava/releases/tag/v33.4.6",
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://developer.android.com/build/releases/gradle-plugin#android-gradle-plugin-{{{newVersion}}}"
+      ]
+    },
+    {
       "groupName": "androidx.test",
       "matchPackageNames": [
         "androidx.test:*"
