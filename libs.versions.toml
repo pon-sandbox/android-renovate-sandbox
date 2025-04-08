@@ -1,10 +1,17 @@
 [versions]
+androidGradlePlugin = "8.9.0"
+androidxComposeMaterialIconsCore = "1.7.7"
 androidxTestCore = "1.6.0"
 androidxTestRules = "1.6.0"
 androidxTestRunner = "1.6.0"
+androidxComposeBom = "2025.03.00"
+guava = "33.4.5-android"
 
 [libraries]
+android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }
 androidx-test-core = {group = "androidx.test", name = "core", version.ref = "androidxTestCore"}
 androidx-text-core-ktx = {group = "androidx.test", name = "core-ktx", version.ref = "androidxTestCore"}
 androidx-test-rules = {group = "androidx.test", name = "rules", version.ref = "androidxTestRules"}
 androidx-test-runner = {group = "androidx.test", name = "runner", version.ref = "androidxTestRunner"}
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "androidxComposeBom" }
+guava = { module = "com.google.guava:guava", version.ref = "guava" }

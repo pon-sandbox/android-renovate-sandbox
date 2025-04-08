@@ -16,12 +16,156 @@
       ]
     },
     {
-      "groupName": "androidx.test",
+      "matchPackageNames": [
+        "com.android.tools.build:gradle"
+      ],
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://developer.android.com/build/releases/gradle-plugin#android-gradle-plugin-{{{newVersion}}}"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "com.google.guava:guava"
+      ],
+      "extractVersion": "^(?<version>.*)-android$",
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://github.com/google/guava/releases/tag/v{{{ replace '-android' '' newVersion }}}"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "androidx.compose.material:*"
+      ],
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://developer.android.com/jetpack/androidx/releases/compose-material#{{{newVersion}}}"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "org.robolectric:robolectric"
+      ],
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://github.com/robolectric/robolectric/releases/tag/robolectric-{{{newVersion}}}"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "androidx.core:*"
+      ],
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://developer.android.com/jetpack/androidx/releases/core#{{{ replace '-ktx' '' (replace '.*:' '' packageName) }}}-{{{newVersion}}}"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "androidx.fragment:*"
+      ],
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://developer.android.com/jetpack/androidx/releases/fragment#{{{ replace '-ktx' '' (replace '.*:' '' packageName) }}}-{{{newVersion}}}"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "androidx.activity:*"
+      ],
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://developer.android.com/jetpack/androidx/releases/activity#{{{ replace '-ktx' '' (replace '.*:' '' packageName) }}}-{{{newVersion}}}"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "androidx.annotation:*"
+      ],
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://developer.android.com/jetpack/androidx/releases/annotation#{{{newVersion}}}"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "androidx.exifinterface:exifinterface"
+      ],
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://developer.android.com/jetpack/androidx/releases/exifinterface#{{{newVersion}}}"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "androidx.navigation:*"
+      ],
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://developer.android.com/jetpack/androidx/releases/navigation#{{{newVersion}}}"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "androidx.viewpager2:viewpager2"
+      ],
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://developer.android.com/jetpack/androidx/releases/viewpager2#{{{newVersion}}}"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "androidx.viewpager2:viewpager2"
+      ],
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://developer.android.com/jetpack/androidx/releases/viewpager2#{{{newVersion}}}"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "androidx.lifecycle:*"
+      ],
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://developer.android.com/jetpack/androidx/releases/lifecycle#{{{newVersion}}}"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "androidx.compose:compose-bom"
+      ],
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://developer.android.com/develop/ui/compose/bom/bom-mapping\n\n含まれているライブラリの詳細は以下で確認しましょう\n\n- androidx.compose.foundation:*\n  - https://developer.android.com/jetpack/androidx/releases/compose-foundation\n- androidx.compose.material:*\n  - https://developer.android.com/jetpack/androidx/releases/compose-material\n- androidx.compose.runtime:*\n  - https://developer.android.com/jetpack/androidx/releases/compose-runtime\n- androidx.compose.ui:*\n  - https://developer.android.com/jetpack/androidx/releases/compose-ui"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "androidx.constraintlayout:*"
+      ],
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://developer.android.com/jetpack/androidx/releases/constraintlayout#constraintlayout-{{{newVersion}}}"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "androidx.constraintlayout:constraintlayout-*"
+      ],
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://developer.android.com/jetpack/androidx/releases/constraintlayout#{{{newVersion}}}"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "com.google.firebase:firebase-bom"
+      ],
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://firebase.google.com/support/release-notes/android#bom_v{{{replace '.' '-' newVersion}}}"
+      ]
+    },
+    {
+      "matchPackageNames": [
+        "com.microsoft.clarity:clarity"
+      ],
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://learn.microsoft.com/en-us/clarity/mobile-sdk/sdk-changelog#android-sdk-changelog"
+      ]
+    },
+    {
       "matchPackageNames": [
         "androidx.test:*"
       ],
       "prBodyNotes": [
-        "### Release Notes ({{{ replace '.*:' '' packageName }}})\n\nhttps://developer.android.com/jetpack/androidx/releases/test#{{{ replace '-ktx' '' (replace '.*:' '' packageName) }}}-{{{newVersion}}}"
+        "### Release Notes\n\nhttps://developer.android.com/jetpack/androidx/releases/test#{{{ replace '-ktx' '' (replace '.*:' '' packageName) }}}-{{{newVersion}}}"
       ]
     }
   ]
