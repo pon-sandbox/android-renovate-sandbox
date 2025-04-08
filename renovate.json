@@ -27,7 +27,7 @@
       "matchPackageNames": [
         "com.google.guava:guava"
       ],
-      "versionCompatibility": "^(?<version>[^-]+)(?<compatibility>-.*)?$",
+      "allowedVersions": "/.*-android$/",
       "prBodyNotes": [
         "### Release Notes\n\nhttps://github.com/google/guava/releases/tag/v{{{ replace '-android' '' newVersion }}}"
       ]
@@ -158,7 +158,8 @@
       ],
       "prBodyNotes": [
         "### Release Notes\n\nhttps://learn.microsoft.com/en-us/clarity/mobile-sdk/sdk-changelog#android-sdk-changelog"
-      ]
+      ],
+      "changelogUrl": ""
     },
     {
       "matchPackageNames": [
