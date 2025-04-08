@@ -38,7 +38,7 @@
       ],
       "allowedVersions": "/.*-android$/",
       "prBodyNotes": [
-        "### Release Notes\n\nhttps://developer.android.com/build/releases/gradle-plugin#android-gradle-plugin-{{{newVersion}}}"
+        "### Release Notes\n\nhttps://github.com/google/guava/releases/tag/v{{{ replace '-android' '' newVersion }}}"
       ]
     },
     {
