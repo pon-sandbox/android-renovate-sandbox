@@ -173,7 +173,7 @@
       "matchPackageNames": [
         "actions/setup-java"
       ],
-      "overrideDatasource": "github-release"
+      "overrideDatasource": "github-releases"
     }
   ]
 }
