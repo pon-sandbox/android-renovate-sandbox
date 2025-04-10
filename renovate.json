@@ -168,6 +168,12 @@
       "prBodyNotes": [
         "### Release Notes\n\nhttps://developer.android.com/jetpack/androidx/releases/test#{{{ replace '-ktx' '' (replace '.*:' '' packageName) }}}-{{{newVersion}}}"
       ]
+    },
+    {
+      "matchPackageNames": [
+        "actions/setup-java"
+      ],
+      "changelogUrl": "https://github.com/actions/setup-java"
     }
   ]
 }
