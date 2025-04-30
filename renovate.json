@@ -182,9 +182,8 @@
         "gradle"
       ],
       "prBodyNotes": [
-        "### Release Notes\n\nhttps://gradle.org/releases/#{{{newVersion}}}"
-      ],
-      "changelogUrl": ""
+        "### Release Notes\n\nhttps://docs.gradle.org/{{{ newVersion }}}/release-notes.html"
+      ]
     }
   ]
 }
