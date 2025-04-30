@@ -176,6 +176,15 @@
       "prBodyNotes": [
         "### Release Notes\n\nhttps://github.com/actions/setup-java/releases/tag/v{{{newVersion}}}"
       ]
+    },
+    {
+      "matchPackageNames": [
+        "gradle"
+      ],
+      "prBodyNotes": [
+        "### Release Notes\n\nhttps://gradle.org/releases/#{{{newVersion}}}"
+      ],
+      "changelogUrl": ""
     }
   ]
 }
