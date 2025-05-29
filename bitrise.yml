@@ -10,5 +10,4 @@ workflows:
       - script@0:
           inputs:
             - content: echo "Hello ${MY_NAME}!"
-      - install-missing-android-tools@3.2.0: {}
-      - install-missing-android-tools@2: {}
+      - install-missing-android-tools@3: {}
