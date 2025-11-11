@@ -39,6 +39,10 @@ android {
     buildFeatures {
         compose = true
     }
+
+    dependencyLocking {
+        lockAllConfigurations()
+    }
 }
 
 dependencies {
