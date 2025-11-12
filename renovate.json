@@ -5,7 +5,7 @@
   ],
   "prConcurrentLimit": 5,
   "env": {
-    "GRADLE_OPTS": "-Xmx256m -XX:MaxMetaspaceSize=256m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8 -XX:+UseG1GC -Dorg.gradle.workers.max=2 -Dorg.gradle.daemon=false -Dkotlin.compiler.execution.strategy=\"in-process\""
+    "GRADLE_OPTS": "-Xmx256m -XX:MaxMetaspaceSize=256m -XX:+HeapDumpOnOutOfMemoryError -Dfile.encoding=UTF-8 -XX:+UseG1GC -Dorg.gradle.workers.max=1 -Dorg.gradle.daemon=false -Dkotlin.compiler.execution.strategy=\"in-process\""
   },
   "branchConcurrentLimit": 1,
   "packageRules": [
